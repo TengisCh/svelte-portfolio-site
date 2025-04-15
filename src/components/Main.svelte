@@ -100,7 +100,7 @@
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-        />
+        ></div>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
@@ -127,7 +127,7 @@
       target="_blank"
       class="mx-auto px-4 rounded-md border border-solid border-white flex items-center gap -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
-      <i class="fa-regular fa-circle-play" />
+      <i class="fa-regular fa-circle-play"></i>
       <p>Watch the video</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
@@ -181,7 +181,7 @@
       <table class="bg-white text-slate-700 rouded text-center">
         <thead class="border-b border-solid border-slate-200">
           <tr>
-            <th class="whitespace-nowrap p-2 px-4" />
+            <th class="whitespace-nowrap p-2 px-4"></th>
             {#each { length: 3 } as _, i}
               <th class="whitespace-nowrap p-2 px-4">Candidate #{i + 1}</th>
             {/each}
@@ -199,7 +199,7 @@
                 {skill.name}
               </td>
               {#each skill.icons as icon}
-                <td><i class={icon} /></td>
+                <td><i class={icon}></i></td>
               {/each}
             </tr>
           {/each}

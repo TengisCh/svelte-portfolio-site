@@ -30,7 +30,7 @@
   <div class="flex flex-col gap-4 items-start justify-center">
     {#each socialMedias as socialMedia}
       <p>
-        <i class={socialMedia.icon} />
+        <i class={socialMedia.icon}></i>
         <strong class="pr-2">{socialMedia.platform}:</strong><a
           href={socialMedia.link}
           class="text-violet-400"
@@ -39,7 +39,7 @@
             ><span class="text-xs scale-75 pl-0.5"
               ><i
                 class="fa-solid fa-arrow-up-right-from-square text-xs scale-75"
-              /></span
+              ></i></span
             ></sup
           >
         </a>
